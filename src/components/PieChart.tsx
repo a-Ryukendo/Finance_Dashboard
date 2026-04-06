@@ -44,7 +44,7 @@ const TransactionChart = () => {
                 cy="50%"
                 outerRadius={100}
                 fill="#8884d8"
-                label={(entry: { name: string; value: number }) => `${entry.name}: ₹${entry.value}`}
+                label={(entry: { name?: string; value?: number }) => `${entry.name || 'Unknown'}: ₹${entry.value || 0}`}
                 >
                     {/* FIX: Changed 'entry' to '_' so TypeScript doesn't complain about unused variables */}
                     {chartData.map((_, index) => (
@@ -65,7 +65,7 @@ const TransactionChart = () => {
             tickFormatter={(str: string) => str.split('-').slice(1).join('/')} // Simplifies '2026-03-01' to '03/01'
           />
           <YAxis />
-          <Tooltip formatter={(value: number) => `₹${value}`} />
+          <Tooltip formatter={(value: number | string | readonly (string | number)[] | undefined) => `₹${value || 0}`} />
           <Legend />
           <Line 
             type="monotone" 
