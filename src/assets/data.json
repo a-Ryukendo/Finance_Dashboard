@@ -1,0 +1,106 @@
+{
+  "profile": {
+    "name": "Aarav Patel",
+    "month": "March",
+    "year": 2026,
+    "currency": "INR"
+  },
+  "summary": {
+    "monthly_income": 65000,
+    "total_expenditure": 25550,
+    "net_savings": 39450
+  },
+  "transactions": [
+    {
+      "id": "txn_001",
+      "date": "2026-03-01",
+      "amount": 15000,
+      "category": "Rent",
+      "description": "Monthly Apartment Rent"
+    },
+    {
+      "id": "txn_002",
+      "date": "2026-03-02",
+      "amount": 1200,
+      "category": "Groceries",
+      "description": "Supermarket run - Vegetables and Staples"
+    },
+    {
+      "id": "txn_003",
+      "date": "2026-03-03",
+      "amount": 150,
+      "category": "Transportation",
+      "description": "Metro Card Recharge"
+    },
+    {
+      "id": "txn_004",
+      "date": "2026-03-05",
+      "amount": 1400,
+      "category": "Utilities",
+      "description": "Electricity Bill"
+    },
+    {
+      "id": "txn_005",
+      "date": "2026-03-07",
+      "amount": 800,
+      "category": "Entertainment",
+      "description": "Movie Tickets"
+    },
+    {
+      "id": "txn_006",
+      "date": "2026-03-10",
+      "amount": 1800,
+      "category": "Groceries",
+      "description": "Supermarket run - Snacks and Toiletries"
+    },
+    {
+      "id": "txn_007",
+      "date": "2026-03-12",
+      "amount": 450,
+      "category": "Transportation",
+      "description": "Uber ride"
+    },
+    {
+      "id": "txn_008",
+      "date": "2026-03-15",
+      "amount": 900,
+      "category": "Utilities",
+      "description": "Broadband Internet"
+    },
+    {
+      "id": "txn_009",
+      "date": "2026-03-18",
+      "amount": 1200,
+      "category": "Dining",
+      "description": "Dinner at Restaurant"
+    },
+    {
+      "id": "txn_010",
+      "date": "2026-03-20",
+      "amount": 350,
+      "category": "Healthcare",
+      "description": "Pharmacy - Basic Medicines"
+    },
+    {
+      "id": "txn_011",
+      "date": "2026-03-22",
+      "amount": 1500,
+      "category": "Groceries",
+      "description": "Local Market"
+    },
+    {
+      "id": "txn_012",
+      "date": "2026-03-25",
+      "amount": 500,
+      "category": "Entertainment",
+      "description": "Streaming Service Subscriptions"
+    },
+    {
+      "id": "txn_013",
+      "date": "2026-03-28",
+      "amount": 300,
+      "category": "Transportation",
+      "description": "Auto Rickshaw"
+    }
+  ]
+}
